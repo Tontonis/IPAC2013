@@ -1,0 +1,3 @@
+IPAC '13 MKI Paper
+Aim: Summarise studies of beam screen - Screen designs and sources of impedance in the beam screen. Maybe measurements of cut down beam screen
+Abstract
