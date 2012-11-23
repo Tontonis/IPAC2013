@@ -1,3 +1,6 @@
 IPAC '13 MKI Paper
 Aim: Summarise studies of beam screen - Screen designs and sources of impedance in the beam screen. Maybe measurements of cut down beam screen
+Impedance Studies of improved beam screens for the LHC Injection Kickers
+Authors - Hugo Day, M.J. Barnes, F. Caspers, E. Metral, B. Salvant
 Abstract
+The LHC injection kicker magnets (MKIs) have experienced a significant degree of beam induced heating since the beginning of the 2011 due to the increasing intensity stored in the LHC and the relatively large broadband impedance of the installed kicker magnets. In this paper we show the sources of impedance in the MKIs, especially the effect that the beam screen dimennsions have on the impedance. We show how these alter the power loss depending on their dimensions, and show an improved beam screen design that improves shielding on the magnet, whilst reducing the induced voltage to reduce the possibiity of electrical breakdown.
