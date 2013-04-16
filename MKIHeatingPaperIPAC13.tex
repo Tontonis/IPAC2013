@@ -6,16 +6,18 @@
 
 
 \begin{document}
-\title{Evaluation of the Beam Coupling Impedance of New Beam Screen Designs for the LHC Injection Kicker Magnets}
+\title{EVALUATION OF THE BEAM COUPLING IMPEDANCE OF NEW BEAM SCREEN DESIGNS FOR THE LHC INJECTION KICKER MAGNETS}
 \author{H. Day\thanks{hugo.day@hep.manchester.ac.uk}$^{\dagger\ddagger\star}$, M.J. Barnes$^{\dagger}$, F. Caspers$^{\dagger}$, R.M. Jones$^{\ddagger \star}$, E. Métral$^{\dagger}$, B. Salvant$^{\dagger}$ \\
 $\dagger$ CERN, Switzerland \\
 $\ddagger$ School of Physics and Astronomy, The University of Manchester, Manchester, UK \\
-$\star$ Cockcroft Institute, Daresbury, UK \\}
+$\star$ Cockcroft Institute, Daresbury, UK \\
+\\}
 
-\maketitle
+\maketitle 
+
 
 \begin{abstract}
-The LHC injection kicker magnets (MKIs) have experienced a significant degree of beam induced heating since the beginning of the 2011 due to the increasing intensity stored in the LHC, for long periods of time, and the relatively large broadband impedance of the installed kicker magnets. In this paper we show the sources of impedance in the MKIs, especially the effect that the beam screen dimensions have on the impedance. We show how these alter the power loss, and present an improved beam screen design that improves shielding on the magnet, whilst further improving electrical breakdown.
+The LHC injection kicker magnets (MKIs) have experienced a significant degree of beam induced heating since the beginning of 2011 due to the increasing intensity stored in the LHC, for long periods of time, and the relatively large broadband beam coupling impedance of the installed kicker magnets. In this paper we show the sources of impedance in the MKIs, and the effect that the beam screen dimensions have on the impedance. We show how these alter the power loss, and present an improved beam screen design that improves shielding on the magnet, whilst further improving electrical breakdown.
 \end{abstract}
 
 %Title format - Title; Authors; Affiliation; conference
@@ -46,9 +48,9 @@ The LHC injection kicker magnets (MKIs) have experienced a significant degree of
 
 \section{INTRODUCTION}
 
-During the 2011 and 2012 runs of the LHC, high temperatures were observed in several devices in the LHC  \cite{metral_cham2012}, a critical piece being the LHC injection kicker magnets (MKIs), which were attributed to beam-induced heating due to high power loss from the interaction of the circulating beam with the beam coupling impedance of the MKI. This heating was observed to raise the temperature of the ferrite yoke of the kickers above their Curie point during fills, thereby necessitating long waiting times for the ferrite to cool before safe injection could be carried out \cite{mki-heating}. 
+During the 2011 and 2012 runs of the LHC, high temperatures were observed in several devices in the LHC  \cite{metral_cham2012}, a critical piece being the LHC injection kicker magnets (MKIs), which were attributed to beam-induced heating due to high power loss from the interaction of the circulating beam with the longitudinal beam coupling impedance of the MKI. This heating was observed to raise the temperature of the ferrite yoke of one of the MKIs above its Curie point during fills, thereby necessitating long waiting times for the ferrite to cool before safe injection could be carried out \cite{mki-heating}. 
 
-In response to this an extensive study in reducing the temperature of the ferrite yoke was carried out, aimed at reducing the power loss into the kicker magnet and increasing the transfer of thermal energy from the ferrite yoke to the surroundings. A new beam screen was implemented in MKI8d in technical stop 3 (23/09/12-27/09/12) with improved screening of the ferrite from the beam and some modifications to reduce the liklihood of electrical breakdown during magnet pulsing was installed, and was observed to greatly reduce the temperature of the ferrite yoke \cite{mki-heatingTemp}. Building on this success, further modifications to the beam screen have been proposed to further reduce the beam coupling impedance, which are discussed here, and the physical reasons for the resulting impedance in a well screened magnet (i.e. the beam does not see the ferrite yoke) discussed. 
+In response to this an extensive study to reduce the temperature of the ferrite yoke was carried out, aimed at reducing the power loss into the kicker magnet and increasing the transfer of thermal energy from the ferrite yoke to the surroundings \cite{nik-HeatingTemp}. A new beam screen was implemented in MKI8D in technical stop 3 (23/09/12-27/09/12) with improved screening of the ferrite from the beam and some modifications to reduce the liklihood of electrical breakdown during magnet pulsing was installed, and was observed to greatly reduce the temperature of the ferrite yoke \cite{mki-heatingTemp}. Building on this success, further modifications to the beam screen have been proposed to further reduce the beam coupling impedance, which are discussed here. In addition, the reasons for the resulting impedance in a well screened magnet (i.e. where the beam does not see the ferrite yoke) discussed. 
 
 \begin{figure}
 \includegraphics[width=0.5\textwidth]{MKICrossSectionYZ.pdf}
@@ -58,11 +60,11 @@ In response to this an extensive study in reducing the temperature of the ferrit
 
 \section{NEW BEAM SCREEN DESIGN}
 
-It has been established that the reason for the large real component of the longitudinal impedance of the MKIs as installed in the LHC during operation during 2011 and 2012 was due to the ferrite still being visible to the circulating beam \cite{kicker_meas}, and as such to reduce the real component of the longitudinal impedance, and thus the power loss in the kickers, it is necessary to improve the screening of the ferrite. This is best achieved by ensuring that all 24 screen conductors are placed into the beam screen of the kicker magnet. The original beam screen had 24 screen conductors in place, but 9 were removed due to electrical breakdown between the screen conductors, and between the screen conductors and the external metallization of the beam screen during kicker pulsing, greatly reducing the screening. 
+It has been established that the reason for the large real component of the longitudinal impedance of the MKIs as installed in the LHC during operation during 2011 and 2012, was due to the ferrite still being visible to the circulating beam \cite{kicker_meas}, and as such to reduce the real component of the longitudinal impedance, and thus the power loss in the kickers, it is necessary to improve the screening of the ferrite. This is best achieved by ensuring that all 24 screen conductors are placed into the beam screen of the kicker magnet. The original beam screen had 24 screen conductors in place, but 9 were removed to decrease flashover on the surface of the capacitively coupled end of the ceramic tube \cite{mki-ElecBreakdown}. 
 
-To this effect many new beam screen designs have been considered to reduce the likelihood of electrical breakdown during pulsing, leading to the design shown in Fig.~\ref{ref:newScreenDesign}. This design greatly reduces the induced electrical potential on the capactively coupled end of the screen conductors by stepping the external conductive material away from the pipe surface, allowing 24 conductors to be inserted, greatly reducing the beam coupling impedance compared to the impedance of most present magnets, and compared to the replacement MKI8d inserted in TS3 (see Fig.~\ref{fig:MKIScreenImp}). These simulations were done using a simplified model of the MKI in CST Particle Studio \cite{cst-cite} using the model represented in Fig.~\ref{fig:mkiStruct} using a time domain solver, the impedance them being obtained by an FFT of the resulting wakepotential. 
+To this effect many new beam screen designs have been considered to reduce the likelihood of electrical breakdown during pulsing, leading to the design shown in Fig.~\ref{ref:newScreenDesign}. This design greatly reduces the electric field on the capactively coupled end of the screen conductors by stepping the external conductive material away from the pipe surface. This allows 24 conductors to be inserted, greatly reducing the beam coupling impedance compared to the impedance of most present MKIs, and compared to the replacement MKI8D installed in TS3 (see Fig.~\ref{fig:MKIScreenImp}). The simulations were done using a simplified model of the MKI in CST Particle Studio \cite{cst-cite} using the model represented in Fig.~\ref{fig:mkiStruct} using a time domain solver: the impedance is subsequently obtained by an FFT of the resulting wakepotential. 
 
-Of particular interest is the change in the structure of the beam coupling impedance; from the broadband impedance characteristic of interactions due to a materials properties that is seen in the case of the kicker magnet with only 15 screen conductors, to a mixture of broadband and resonant impedances with 19 screen conductors, to a very strongly resonant impedance in the beam screen with 24 screen conductors. In an effort to understand the source of these resonances to determine whether the beam coupling impedance can be further optimised to reduce heating for any further upgrades to the LHC operation (to higher bunch intensities or numbers of circulating bunches).
+Of particular interest is the change in the nature of the beam coupling impedance; from the broadband impedance characteristic of interactions due to a materials properties that is seen in the case of the kicker magnet with only 15 screen conductors, to a mixture of broadband and resonant impedances with 19 screen conductors, to a strongly resonant-type impedance in the beam screen with 24 screen conductors. The effort to understand the source of these resonances is also useful to determine whether the beam coupling impedance can be further optimised to reduce heating for any future upgrades to the LHC operation (to higher bunch intensities or numbers of circulating bunches).
 
 \begin{figure}
 \includegraphics[width=0.5\textwidth]{mki-final-design.pdf}
@@ -71,27 +73,28 @@ Of particular interest is the change in the structure of the beam coupling imped
 \end{figure}
 
 \begin{figure}
-\includegraphics[width=0.5\textwidth]{realImp.pdf}
-\caption{The real component of the longitudinal beam coupling impedance of the existing MKIs, the replacement MKI8d and the proposed beam screen design for after LS1.}
+\begin{center}\includegraphics[width=0.4\textwidth]{realImp.pdf}
+\caption{The real component of the longitudinal beam coupling impedance of the existing MKIs, the replacement MKI8D and the proposed beam screen design for after LS1.}
 \label{fig:MKIScreenImp}
+\end{center}
 \end{figure}
 
 \section{CAUSES OF THE IMPEDANCE}
 
-By placing field monitors in the simulation model it is possible to observe the field patterns of the wakefield resulting from a charged particle traversing a structure. For the MKI beam screen with 24 screen conductors this showed that the strong fields after the beam has trasversed were observed to be localised in the region between the screen conductors and the external metallization/metal tube, as seen in Fig.~\ref{fig:mkiResFieldPat}. To confirm this it is possible to predict the resonant frequency of the resonances in this region. This is modelled as a $n \lambda /2$ resonance, where $\lambda$ is the wavelength of the resonance and n an integer. This gave a predicted resonant frequency $f_{res}$ of the resonances of 
+By placing field monitors in the simulation model it is possible to observe the field patterns of the wakefield resulting from a charged particle traversing a structure. For the MKI beam screen with 24 screen conductors, this showed that the strong fields after the beam has trasversed an MKI, were localised in the region between the screen conductors and the external metallization/metal tube, as seen in Fig.~\ref{fig:mkiResFieldPat}. These $n \lambda /2$ resonances, where $\lambda$ is the wavelength of the resonance and n an integer. This gave a predicted resonant frequency $f_{res}$ of 
 
 \begin{equation}
 f_{res} = \frac{nc}{\sqrt{\epsilon_{r}}2 \left( L_{overlap} + \delta_{fringe} \right)},
 \label{eqn:imp-overlap-fres}
 \end{equation}
 
-where $\epsilon_{r}$ is the relative permitivitty of the surrounding medium (in this case $\epsilon_{r} \approx 10$ for the alumina ceramic tube), $c$ is the speed of light, $L_{overlap}$ is the length of the overlap between the screen conductors and the external metallization/metal tube, and $\delta_{fringe}$ is a factor to take into account fringe fields, which depends on the distance between the screen conductors and the external metallization, and whether the external conductor is directly on the ceramic tube or stepped off. To illustrate this, a shortened end section of the beam screen with 24 screen conductors has been simulated with a variety of different lengths of overlap (achieved by changing the length of the external metallization, so as to not introduce any influence from the screen conductors acting as $n \lambda /4$ resonators), changing them between 80mm and 120mm in 10mm increments. The resulting simulated impedances and predicted resonant frequencies are shown in Fig.~\ref{fig:mkiOverlapRes}. It has been found that the value of $\delta_{fringe}$ can be estimated from the thickness of the ceramic tube, such that
+where $\epsilon_{r}$ is the relative permitivitty of the surrounding medium (in this case $\epsilon_{r} \approx 10$ for the alumina ceramic tube), $c$ is the speed of light, $L_{overlap}$ is the length of the overlap between the screen conductors and the external metallization/metal tube, and $\delta_{fringe}$ is a factor to take into account fringe fields, which depends on the distance between the screen conductors and the external metallization/metal tube. To illustrate this, a shortened end section of the beam screen with 24 screen conductors has been simulated with a variety of different lengths of overlap (achieved by changing the length of the external metallization, so as to not introduce any influence from the screen conductors acting as $n \lambda /4$ resonators), between 80mm and 120mm in 10mm increments. The resulting simulated impedances and predicted resonant frequencies are shown in Fig.~\ref{fig:mkiOverlapRes}. It has been found that the value of $\delta_{fringe}$ can be estimated from the thickness of the ceramic tube, such that
 
 \begin{equation}
 \delta_{fringe} \approx 1.25 \times t_{pipe}
 \end{equation}
 
-where $t_{pipe}$ is the ceramic tube thickness in mm. Further effects of the beam screen layout have been examined such as the ceramic tube thickness, the number of screen conductors and their orientation, which are shown in depth in \cite{DayThesis}. Studies on determining the peak height of the resonant impedance are ongoing.
+where $t_{pipe}$ is the ceramic tube thickness in mm. Further effects of the beam screen layout have been examined such as the ceramic tube thickness, the number of screen conductors and their orientation, which are presented in depth in \cite{DayThesis}. Studies on determining the peak height of the resonant impedance are ongoing.
 
 \begin{figure}
 \includegraphics[width=0.5\textwidth]{resField.jpeg}
@@ -100,24 +103,26 @@ where $t_{pipe}$ is the ceramic tube thickness in mm. Further effects of the bea
 \end{figure}
 
 \begin{figure}
-\includegraphics[width=0.5\textwidth]{mki-overlap-len-real-imp-zoom.pdf}
-\caption{The changing resonant frequency of the resonance due to the overlap of the screen conductors with external metallization with different length of the overlap. The resonant frequencies are shown as blue vertical lines.}
+\begin{center}
+\includegraphics[width=0.4\textwidth]{mki-overlap-len-real-imp-zoom.pdf}
+\caption{The changing resonant frequency due to the overlap of the screen conductors with external metallization with different length of the overlap. The resonant frequencies are shown as blue vertical lines.}
 \label{fig:mkiOverlapRes}
+\end{center}
 \end{figure}
 
 \section{POWER LOSS FOR FUTURE OPERATION}
 
-Important in determing the viability of the new screen design is the power loss into the MKI, as this is a key point in determining the temperature that the ferrite yoke in the magnet will reach. Due to the mixed broadband/narrowband impedance of the beam screen impedance (broadband with 15 and 19 screen conductors due to the ferrite wall impedance, narrowband with 24 screen conductors, but with relatively small Qs ($\approx$ 10-100)), the entire beam spectrum must be considered when estimating the power loss to the kickers by the circulating beam. In this case the power lost due to the real component of the longitudinal beam coupling impedance is given by 
+Important in determing the viability of the new screen design is the power deposition into the MKI, as this is a key point in determining the temperature that the ferrite yoke in the magnet will reach. Due to the mixed broadband/narrowband impedance of the beam screen impedance (broadband with 15 and 19 screen conductors due to the ferrite wall impedance, narrowband with 24 screen conductors, but with relatively small Qs ($\approx$ 10-100)), the entire beam spectrum must be considered when estimating the power deposition in the MKIS due to the circulating beam. In this case the power lost due to the real component of the longitudinal beam coupling impedance is given by 
 
 \begin{equation}
-P_{loss} = 2 \left( f_{rev} e n_{b}  N_{b}\right)^{2} \displaystyle\sum\limits_{p = -\infty}^{\infty}  \left| \lambda \left( p n_{b} \omega_{rev} \right)  \right|^{2} \Re{}e \left[ Z_{\parallel} \left( p n_{b}\omega_{rev} \right) \right],
+P_{loss} = 2 \left( f_{rev} e n_{b}  N_{b}\right)^{2} \displaystyle\sum\limits_{p = -\infty}^{\infty}  \left| \lambda \left( p n_{b} \omega_{r} \right)  \right|^{2} \Re{}e \left[ Z_{\parallel} \left( p n_{b}\omega_{r} \right) \right],
 \label{eqn:heating-gen}
 \end{equation} 
 
-where $f_{rev}$ is the revolution frequency of the machine, $e$ the electron charge, $n_{b}$ the number of bunches in the machines, $N_{b}$ the bunch population, $\Re{}e[Z_{\parallel}(\omega )]$ the real component of the longitudinal impedance, and $\lambda (\omega )$ the frequency domain beam current spectrum. Here we give power loss estimates for the highest beam current during 2012 operation with 50ns beam, post-LS1 running with nominal 25ns beam, and proposed HL-LHC parameters for 25ns and 50ns beam, given in Tab.~\ref{tab:BrenHLPara}. For these estimates a cos$^{2}$ bunch distribution is assumed, in order to have a high frequency lobe in the beam current spectrum as has been observed in the LHC \cite{LHCRF}, which is thought to be especially important for resonant-type impedances as the new beam screen design is. The calculated power losses for the beam screen with 15, 19 and 24 screen conductors is shown in Tab.~\ref{tab:PowLoss}. It can be seen that for current operation the proposed design greatly reduces the power loss over the screen with 15 screen conductors and with 19, by a factor of about 4 for the former, and 1.5 for the latter. For post-LS1 operation this benefit is further increased, the narrow resonances of the 24 screen conductor design being advantageous as the beam seperation harmonics often fall in between resonances. Operation at HL-LHC also favours the use of the new screen design, especially in the case of operation with 25ns beam.
+where $f_{r}$ is the revolution frequency of the machine, $e$ the electron charge, $n_{b}$ the number of bunches in the machines, $N_{b}$ the bunch population, $\Re{}e[Z_{\parallel}(\omega )]$ the real component of the longitudinal impedance, and $\lambda (\omega )$ the frequency domain beam current spectrum. Here we give power loss estimates for the highest beam current during 2012 operation with 50ns beam, post-LS1 running with nominal 25ns beam, and proposed HL-LHC parameters for 25ns and 50ns beam, (Tab.~\ref{tab:BrenHLPara}). For these estimates a cos$^{2}$ bunch distribution is assumed, in order to have a high frequency lobe in the beam current spectrum as has been observed in the LHC \cite{LHCRF}, which is thought to be especially important for resonant-type impedances such as the new beam screen design. The calculated power losses for the beam screen with 15, 19 and 24 screen conductors is shown in Tab.~\ref{tab:PowLoss}. It can be seen that for present operation the proposed design greatly reduces the power loss over the screen with 15 screen conductors and with 19, by a factor of about 4 for the former, and 1.5 for the latter. For post-LS1 operation this benefit is further increased, the narrow resonances of the 24 screen conductor design being advantageous as the beam seperation harmonics often fall in between resonances. Operation at HL-LHC also favours the use of the new screen design, especially in the case of operation with 25ns beam.
 
 \begin{table}
-\caption{Beam parameters and for the LHC during 2012 operation, post-LS1 and some proposed HL-LHC parameters. Here the bunch length is assumed to encompass the $4\sigma$ Gaussian width.}
+\caption{Beam parameters for the LHC during 2012 operation, post-LS1 and some proposed HL-LHC parameters. Here the bunch length is the $4\sigma$ Gaussian width.}
 \label{tab:BrenHLPara}
 \begin{center}
 \begin{tabular}{c | c | c | c }
@@ -131,7 +136,7 @@ Operational Mode & $t_{b}$ (ns) & $N_{b}$ & $n_{b}$ \\ \hline
 \end{table}
 
 \begin{table}
-\caption{Beam parameters and for the LHC during 2012 operation, post-LS1 and some proposed HL-LHC parameters. Here the bunch length is assumed to encompass the $4\sigma$ Gaussian width.}
+\caption{Beam induced power deposition (W) for the LHC during 2012 operation, post-LS1 and some proposed HL-LHC parameters.}
 \label{tab:PowLoss}
 \begin{center}
 \begin{tabular}{c | c | c | c | c}
@@ -145,7 +150,7 @@ Screen Layout &50ns 2012&25ns&25ns HL&50ns HL\\ \hline
 
 \section{SUMMARY}
 
-Here we have presented the current status of the impedance studies of the new beam screen design for the LHC injection kickers for installation during LS1. It has been shown that it greatly reduces the beam impedance, leading to a much lower power loss in the kicker magnets compared to those currently in place in the LHC for both present and future operating parameters. In addition the source of the impedance for the case of the partially shielded (15/19 conductors) and well shielded (24 conductors) has been found to be either the beam seeing the ferrite or the overlap at the capacitively coupled end of the beam screen acting as a $\lambda /2 $ resonator. 
+We have presented the current status of the impedance studies of the new beam screen design for the LHC injection kickers for installation during LS1. It has been shown that it greatly reduces the beam impedance, leading to a much lower power loss in the kicker magnets compared to those currently in place in the LHC, for both present and future operating parameters. In addition the source of the impedance for the case of the partially shielded (15/19 conductors) and well shielded (24 conductors) has been found to be either the beam seeing the ferrite yoke or the overlap at the capacitively coupled end of the beam screen acting as a $\lambda /2 $ resonator, respectively. 
 
 \begin{thebibliography}{9}
 
