@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.3.15)  23 APR 2013 09:50
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.3.15)  23 APR 2013 10:30
 entering extended mode
 **C:/Users/hday/Documents/GitHub/IPAC2013/MKIHeatingPaperIPAC13.tex
 (C:/Users/hday/Documents/GitHub/IPAC2013/MKIHeatingPaperIPAC13.tex
@@ -483,6 +483,11 @@ Package pdftex.def Info: mki-overlap-len-real-imp-zoom.pdf used on input line 1
 09.
 (pdftex.def)             Requested size: 193.47577pt x 145.10646pt.
 
+Underfull \hbox (badness 2662) in paragraph at lines 117--118
+\OT1/ptm/m/n/10 in the mag-net will reach [[]]. Due to the mixed
+ []
+
+
 Underfull \hbox (badness 1540) in paragraph at lines 117--118
 \OT1/ptm/m/n/10 broad-band/narrowband impedance of the beam screen
  []
@@ -501,9 +506,7 @@ Overfull \hbox (13.02379pt too wide) in paragraph at lines 144--150
  []
 
 [3 <C:/Users/hday/Documents/GitHub/IPAC2013/mki-overlap-len-real-imp-zoom.pdf>]
-[4
-
-] (C:\Users\hday\Documents\GitHub\IPAC2013\MKIHeatingPaperIPAC13.aux) ) 
+(C:\Users\hday\Documents\GitHub\IPAC2013\MKIHeatingPaperIPAC13.aux) ) 
 Here is how much of TeX's memory you used:
  2278 strings out of 493921
  28772 string characters out of 3144879
@@ -511,26 +514,26 @@ Here is how much of TeX's memory you used:
  5549 multiletter control sequences out of 15000+200000
  21138 words of font info for 46 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 29i,11n,24p,1563b,249s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Prog
-ram Files (x86)/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Program Files (x
-86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files (x86
-)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files (x86)/
-MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files (x86)/Mi
-KTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Program Files (x86)/MiKTe
-X 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files (x86)/MiKTeX 2
-.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files (x86)/MiKTeX 2.9/
-fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files (x86)/MiKTeX 2.9/font
-s/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/
-type1/public/amsfonts/cm/cmsy6.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/typ
-e1/public/amsfonts/cm/cmsy7.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/
-public/amsfonts/cm/cmsy8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/pub
-lic/amsfonts/cm/cmtt9.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/ti
-mes/utmb8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.
-pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on MKIHeatingPaperIPAC13.pdf (4 pages, 468500 bytes).
+ 29i,11n,24p,1556b,249s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Progra
+m Files (x86)/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Program Files (x86
+)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files (x86)/
+MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files (x86)/Mi
+KTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files (x86)/MiKT
+eX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Program Files (x86)/MiKTeX 
+2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files (x86)/MiKTeX 2.9
+/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fo
+nts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/
+type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/ty
+pe1/public/amsfonts/cm/cmsy6.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1
+/public/amsfonts/cm/cmsy7.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/pu
+blic/amsfonts/cm/cmsy8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/publi
+c/amsfonts/cm/cmtt9.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/time
+s/utmb8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pf
+b><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
+Output written on MKIHeatingPaperIPAC13.pdf (3 pages, 467969 bytes).
 PDF statistics:
- 254 PDF objects out of 1000 (max. 8388607)
+ 251 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  26 words of extra memory for PDF output out of 10000 (max. 10000000)
 
