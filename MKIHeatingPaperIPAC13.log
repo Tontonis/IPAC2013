@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.3.15)  16 APR 2013 14:04
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.3.15)  23 APR 2013 09:50
 entering extended mode
 **C:/Users/hday/Documents/GitHub/IPAC2013/MKIHeatingPaperIPAC13.tex
 (C:/Users/hday/Documents/GitHub/IPAC2013/MKIHeatingPaperIPAC13.tex
@@ -432,12 +432,6 @@ Overfull \vbox (25.53693pt too high) detected at line 16
 
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 49.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 53.
-
-LaTeX Warning: Citation `nik-HeatingTemp' on page 1 undefined on input line 53.
-
-
 <MKICrossSectionYZ.pdf, id=1, 853.7496pt x 341.47577pt>
 File: MKICrossSectionYZ.pdf Graphic file (type pdf)
 
@@ -449,16 +443,12 @@ Overfull \hbox (7.11319pt too wide) in paragraph at lines 56--57
 [][] 
  []
 
-
-LaTeX Warning: Reference `ref:newScreenDesign' on page 1 undefined on input lin
-e 65.
-
-<mki-final-design.pdf, id=2, 796.71652pt x 455.30101pt>
+<mki-final-design.pdf, id=2, 796.77673pt x 455.30101pt>
 File: mki-final-design.pdf Graphic file (type pdf)
 
 <use mki-final-design.pdf>
 Package pdftex.def Info: mki-final-design.pdf used on input line 70.
-(pdftex.def)             Requested size: 241.84842pt x 138.21008pt.
+(pdftex.def)             Requested size: 241.84842pt x 138.19618pt.
 
 Overfull \hbox (7.11319pt too wide) in paragraph at lines 70--71
 [][] 
@@ -478,10 +468,10 @@ Package pdftex.def Info: realImp.pdf used on input line 76.
 <resField.jpeg, id=24, 371.88937pt x 105.39375pt>
 File: resField.jpeg Graphic file (type jpg)
  <use resField.jpeg>
-Package pdftex.def Info: resField.jpeg used on input line 100.
+Package pdftex.def Info: resField.jpeg used on input line 102.
 (pdftex.def)             Requested size: 241.84842pt x 68.5421pt.
 
-Overfull \hbox (7.11319pt too wide) in paragraph at lines 100--101
+Overfull \hbox (7.11319pt too wide) in paragraph at lines 102--103
 [][] 
  []
 
@@ -490,59 +480,57 @@ File: mki-overlap-len-real-imp-zoom.pdf Graphic file (type pdf)
 
 <use mki-overlap-len-real-imp-zoom.pdf>
 Package pdftex.def Info: mki-overlap-len-real-imp-zoom.pdf used on input line 1
-07.
+09.
 (pdftex.def)             Requested size: 193.47577pt x 145.10646pt.
 
-Underfull \hbox (badness 1540) in paragraph at lines 115--116
+Underfull \hbox (badness 1540) in paragraph at lines 117--118
 \OT1/ptm/m/n/10 broad-band/narrowband impedance of the beam screen
  []
 
 [2 <C:/Users/hday/Documents/GitHub/IPAC2013/mki-final-design.pdf> <C:/Users/hda
 y/Documents/GitHub/IPAC2013/realImp.pdf> <C:/Users/hday/Documents/GitHub/IPAC20
-13/resField.jpeg> <C:/Users/hday/Documents/GitHub/IPAC2013/mki-overlap-len-real
--imp-zoom.pdf>]
-Overfull \hbox (16.01004pt too wide) detected at line 120
+13/resField.jpeg>]
+Overfull \hbox (16.01004pt too wide) detected at line 122
 \OML/cmm/m/it/10 P[] \OT1/cmr/m/n/10 = 2 [][] [] [][] \OMS/cmsy/m/n/10 <[]\OML/
 cmm/m/it/10 e [] ;
  []
 
 
-Overfull \hbox (13.02379pt too wide) in paragraph at lines 142--148
+Overfull \hbox (13.02379pt too wide) in paragraph at lines 144--150
  [] 
  []
 
-[3] (C:\Users\hday\Documents\GitHub\IPAC2013\MKIHeatingPaperIPAC13.aux)
+[3 <C:/Users/hday/Documents/GitHub/IPAC2013/mki-overlap-len-real-imp-zoom.pdf>]
+[4
 
-LaTeX Warning: There were undefined references.
-
- ) 
+] (C:\Users\hday\Documents\GitHub\IPAC2013\MKIHeatingPaperIPAC13.aux) ) 
 Here is how much of TeX's memory you used:
- 2283 strings out of 493921
- 28845 string characters out of 3144879
- 90519 words of memory out of 3000000
- 5553 multiletter control sequences out of 15000+200000
- 22764 words of font info for 48 fonts, out of 3000000 for 9000
+ 2278 strings out of 493921
+ 28772 string characters out of 3144879
+ 89519 words of memory out of 3000000
+ 5549 multiletter control sequences out of 15000+200000
+ 21138 words of font info for 46 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 29i,11n,24p,1558b,249s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Progra
-m Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program 
-Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Fi
-les (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program File
-s (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Program Files (
-x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files (x86
-)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files (x86)/M
-iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files (x86)/MiKTe
-X 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files (x86)/MiKTeX 
-2.9/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Program Files (x86)/MiKTeX 2.9
-/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Program Files (x86)/MiKTeX 2.9/fo
-nts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts
-/type1/public/amsfonts/cm/cmtt9.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/ty
-pe1/urw/times/utmb8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/tim
-es/utmr8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.
-pfb>
-Output written on MKIHeatingPaperIPAC13.pdf (3 pages, 411713 bytes).
+ 29i,11n,24p,1563b,249s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Prog
+ram Files (x86)/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Program Files (x
+86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files (x86
+)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files (x86)/
+MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files (x86)/Mi
+KTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Program Files (x86)/MiKTe
+X 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files (x86)/MiKTeX 2
+.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files (x86)/MiKTeX 2.9/
+fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files (x86)/MiKTeX 2.9/font
+s/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/
+type1/public/amsfonts/cm/cmsy6.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/typ
+e1/public/amsfonts/cm/cmsy7.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/
+public/amsfonts/cm/cmsy8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/pub
+lic/amsfonts/cm/cmtt9.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/ti
+mes/utmb8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.
+pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
+Output written on MKIHeatingPaperIPAC13.pdf (4 pages, 468500 bytes).
 PDF statistics:
- 253 PDF objects out of 1000 (max. 8388607)
+ 254 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  26 words of extra memory for PDF output out of 10000 (max. 10000000)
 
