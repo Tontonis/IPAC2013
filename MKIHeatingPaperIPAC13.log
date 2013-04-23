@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.3.15)  23 APR 2013 10:30
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.3.15)  23 APR 2013 15:22
 entering extended mode
 **C:/Users/hday/Documents/GitHub/IPAC2013/MKIHeatingPaperIPAC13.tex
 (C:/Users/hday/Documents/GitHub/IPAC2013/MKIHeatingPaperIPAC13.tex
@@ -454,20 +454,20 @@ Overfull \hbox (7.11319pt too wide) in paragraph at lines 70--71
 [][] 
  []
 
-[1{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}
-
-
-
- <C:/Users/hday/Documents/GitHub/IPAC2013/MKICrossSectionYZ.pdf>]
-<realImp.pdf, id=23, 578.16pt x 433.62pt>
+<realImp.pdf, id=3, 578.16pt x 433.62pt>
 File: realImp.pdf Graphic file (type pdf)
  <use realImp.pdf>
 Package pdftex.def Info: realImp.pdf used on input line 76.
 (pdftex.def)             Requested size: 193.47577pt x 145.10646pt.
+ [1{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}
 
-<resField.jpeg, id=24, 371.88937pt x 105.39375pt>
+
+
+ <C:/Users/hday/Documents/GitHub/IPAC2013/MKICrossSectionYZ.pdf>] <resField.jpe
+g, id=24, 371.88937pt x 105.39375pt>
 File: resField.jpeg Graphic file (type jpg)
- <use resField.jpeg>
+
+<use resField.jpeg>
 Package pdftex.def Info: resField.jpeg used on input line 102.
 (pdftex.def)             Requested size: 241.84842pt x 68.5421pt.
 
@@ -508,13 +508,13 @@ Overfull \hbox (13.02379pt too wide) in paragraph at lines 144--150
 [3 <C:/Users/hday/Documents/GitHub/IPAC2013/mki-overlap-len-real-imp-zoom.pdf>]
 (C:\Users\hday\Documents\GitHub\IPAC2013\MKIHeatingPaperIPAC13.aux) ) 
 Here is how much of TeX's memory you used:
- 2278 strings out of 493921
- 28772 string characters out of 3144879
+ 2277 strings out of 493921
+ 28764 string characters out of 3144879
  89519 words of memory out of 3000000
- 5549 multiletter control sequences out of 15000+200000
+ 5548 multiletter control sequences out of 15000+200000
  21138 words of font info for 46 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 29i,11n,24p,1556b,249s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 29i,11n,24p,1553b,249s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Progra
 m Files (x86)/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Program Files (x86
 )/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files (x86)/
@@ -531,7 +531,7 @@ blic/amsfonts/cm/cmsy8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/publi
 c/amsfonts/cm/cmtt9.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/time
 s/utmb8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pf
 b><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on MKIHeatingPaperIPAC13.pdf (3 pages, 467969 bytes).
+Output written on MKIHeatingPaperIPAC13.pdf (3 pages, 467908 bytes).
 PDF statistics:
  251 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
