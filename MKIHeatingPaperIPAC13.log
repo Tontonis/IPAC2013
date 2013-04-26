@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.3.15)  23 APR 2013 15:22
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.3.15)  26 APR 2013 13:48
 entering extended mode
 **C:/Users/hday/Documents/GitHub/IPAC2013/MKIHeatingPaperIPAC13.tex
 (C:/Users/hday/Documents/GitHub/IPAC2013/MKIHeatingPaperIPAC13.tex
@@ -427,7 +427,8 @@ File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 16.
 
-Overfull \vbox (25.53693pt too high) detected at line 16
+Overfull \hbox (33.9537pt too wide) in paragraph at lines 16--16
+ [][] 
  []
 
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
@@ -447,31 +448,31 @@ Overfull \hbox (7.11319pt too wide) in paragraph at lines 56--57
 File: mki-final-design.pdf Graphic file (type pdf)
 
 <use mki-final-design.pdf>
-Package pdftex.def Info: mki-final-design.pdf used on input line 70.
+Package pdftex.def Info: mki-final-design.pdf used on input line 72.
 (pdftex.def)             Requested size: 241.84842pt x 138.19618pt.
 
-Overfull \hbox (7.11319pt too wide) in paragraph at lines 70--71
+Overfull \hbox (7.11319pt too wide) in paragraph at lines 72--73
 [][] 
  []
 
-<realImp.pdf, id=3, 578.16pt x 433.62pt>
+[1{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}
+
+
+
+ <C:/Users/hday/Documents/GitHub/IPAC2013/MKICrossSectionYZ.pdf>]
+<realImp.pdf, id=23, 578.16pt x 433.62pt>
 File: realImp.pdf Graphic file (type pdf)
  <use realImp.pdf>
-Package pdftex.def Info: realImp.pdf used on input line 76.
+Package pdftex.def Info: realImp.pdf used on input line 78.
 (pdftex.def)             Requested size: 193.47577pt x 145.10646pt.
- [1{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}
 
-
-
- <C:/Users/hday/Documents/GitHub/IPAC2013/MKICrossSectionYZ.pdf>] <resField.jpe
-g, id=24, 371.88937pt x 105.39375pt>
+<resField.jpeg, id=24, 371.88937pt x 105.39375pt>
 File: resField.jpeg Graphic file (type jpg)
-
-<use resField.jpeg>
-Package pdftex.def Info: resField.jpeg used on input line 102.
+ <use resField.jpeg>
+Package pdftex.def Info: resField.jpeg used on input line 104.
 (pdftex.def)             Requested size: 241.84842pt x 68.5421pt.
 
-Overfull \hbox (7.11319pt too wide) in paragraph at lines 102--103
+Overfull \hbox (7.11319pt too wide) in paragraph at lines 104--105
 [][] 
  []
 
@@ -480,28 +481,35 @@ File: mki-overlap-len-real-imp-zoom.pdf Graphic file (type pdf)
 
 <use mki-overlap-len-real-imp-zoom.pdf>
 Package pdftex.def Info: mki-overlap-len-real-imp-zoom.pdf used on input line 1
-09.
+11.
 (pdftex.def)             Requested size: 193.47577pt x 145.10646pt.
 
-Underfull \hbox (badness 2662) in paragraph at lines 117--118
+Underfull \hbox (badness 2662) in paragraph at lines 119--120
 \OT1/ptm/m/n/10 in the mag-net will reach [[]]. Due to the mixed
  []
 
 
-Underfull \hbox (badness 1540) in paragraph at lines 117--118
+Underfull \hbox (badness 1540) in paragraph at lines 119--120
 \OT1/ptm/m/n/10 broad-band/narrowband impedance of the beam screen
  []
 
 [2 <C:/Users/hday/Documents/GitHub/IPAC2013/mki-final-design.pdf> <C:/Users/hda
 y/Documents/GitHub/IPAC2013/realImp.pdf> <C:/Users/hday/Documents/GitHub/IPAC20
 13/resField.jpeg>]
-Overfull \hbox (16.01004pt too wide) detected at line 122
+Overfull \hbox (7.96474pt too wide) detected at line 124
 \OML/cmm/m/it/10 P[] \OT1/cmr/m/n/10 = 2 [][] [] [][] \OMS/cmsy/m/n/10 <[]\OML/
 cmm/m/it/10 e [] ;
  []
 
 
-Overfull \hbox (13.02379pt too wide) in paragraph at lines 144--150
+Underfull \hbox (badness 2469) in paragraph at lines 126--127
+$\OML/cmm/m/it/10 ![] \OT1/cmr/m/n/10 = 2\OML/cmm/m/it/10 f[]$\OT1/ptm/m/n/10 
+, $\OML/cmm/m/it/10 e$ \OT1/ptm/m/n/10 the elec-tron charge, $\OML/cmm/m/it/10 
+n[]$ \OT1/ptm/m/n/10 the num-
+ []
+
+
+Overfull \hbox (13.02379pt too wide) in paragraph at lines 148--157
  [] 
  []
 
@@ -514,7 +522,7 @@ Here is how much of TeX's memory you used:
  5548 multiletter control sequences out of 15000+200000
  21138 words of font info for 46 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 29i,11n,24p,1553b,249s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 29i,11n,24p,1534b,249s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Progra
 m Files (x86)/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Program Files (x86
 )/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files (x86)/
@@ -531,9 +539,9 @@ blic/amsfonts/cm/cmsy8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/publi
 c/amsfonts/cm/cmtt9.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/time
 s/utmb8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pf
 b><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on MKIHeatingPaperIPAC13.pdf (3 pages, 467908 bytes).
+Output written on MKIHeatingPaperIPAC13.pdf (3 pages, 458418 bytes).
 PDF statistics:
- 251 PDF objects out of 1000 (max. 8388607)
+ 222 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  26 words of extra memory for PDF output out of 10000 (max. 10000000)
 
