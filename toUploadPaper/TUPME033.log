@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.3.15)  3 MAY 2013 09:35
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.3.15)  7 MAY 2013 12:57
 entering extended mode
-**C:/Users/hday/Documents/GitHub/IPAC2013/MKIHeatingPaperIPAC13.tex
-(C:/Users/hday/Documents/GitHub/IPAC2013/MKIHeatingPaperIPAC13.tex
+**C:/Users/hday/Documents/GitHub/IPAC2013/toUploadPaper/TUPME033.tex
+(C:/Users/hday/Documents/GitHub/IPAC2013/toUploadPaper/TUPME033.tex
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
 abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
@@ -13,7 +13,7 @@ german-x-2012-05-30, nynorsk, oriya, panjabi, pinyin, polish, portuguese, roman
 ian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swissgerm
 an, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, usengl
 ishmax, welsh, loaded.
-(C:\Users\hday\Documents\GitHub\IPAC2013\JAC2003.cls
+(C:\Users\hday\Documents\GitHub\IPAC2013\toUploadPaper\JAC2003.cls
 \dsep=\skip41
 \dwid=\skip42
 \dht=\skip43
@@ -392,7 +392,7 @@ Package: booktabs 2005/04/14 v1.61803 publication quality tables
 \@lastruleclass=\count107
 \@thisrulewidth=\dimen128
 )
-(C:\Users\hday\Documents\GitHub\IPAC2013\MKIHeatingPaperIPAC13.aux)
+(C:\Users\hday\Documents\GitHub\IPAC2013\toUploadPaper\TUPME033.aux)
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 8.
 LaTeX Font Info:    ... okay on input line 8.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 8.
@@ -433,32 +433,30 @@ Overfull \hbox (33.9537pt too wide) in paragraph at lines 16--16
 
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 49.
-<MKICrossSectionYZ.pdf, id=1, 853.7496pt x 341.47577pt>
-File: MKICrossSectionYZ.pdf Graphic file (type pdf)
-
-<use MKICrossSectionYZ.pdf>
-Package pdftex.def Info: MKICrossSectionYZ.pdf used on input line 56.
+<TUPME033f1.pdf, id=1, 853.7496pt x 341.47577pt>
+File: TUPME033f1.pdf Graphic file (type pdf)
+ <use TUPME033f1.pdf>
+Package pdftex.def Info: TUPME033f1.pdf used on input line 56.
 (pdftex.def)             Requested size: 241.84842pt x 96.73282pt.
 
 Overfull \hbox (7.11319pt too wide) in paragraph at lines 56--57
 [][] 
  []
 
-<mki-final-design.pdf, id=2, 796.77673pt x 455.30101pt>
-File: mki-final-design.pdf Graphic file (type pdf)
-
-<use mki-final-design.pdf>
-Package pdftex.def Info: mki-final-design.pdf used on input line 70.
+<TUPME033f2.pdf, id=2, 796.77673pt x 455.30101pt>
+File: TUPME033f2.pdf Graphic file (type pdf)
+ <use TUPME033f2.pdf>
+Package pdftex.def Info: TUPME033f2.pdf used on input line 70.
 (pdftex.def)             Requested size: 241.84842pt x 138.19618pt.
 
 Overfull \hbox (7.11319pt too wide) in paragraph at lines 70--71
 [][] 
  []
 
-<realImp.pdf, id=3, 578.16pt x 433.62pt>
-File: realImp.pdf Graphic file (type pdf)
- <use realImp.pdf>
-Package pdftex.def Info: realImp.pdf used on input line 76.
+<TUPME033f3.pdf, id=3, 578.16pt x 433.62pt>
+File: TUPME033f3.pdf Graphic file (type pdf)
+ <use TUPME033f3.pdf>
+Package pdftex.def Info: TUPME033f3.pdf used on input line 76.
 (pdftex.def)             Requested size: 193.47577pt x 145.10646pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -467,23 +465,21 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
- <C:/Users/hday/Documents/GitHub/IPAC2013/MKICrossSectionYZ.pdf>]
-<resField.jpeg, id=24, 371.88937pt x 105.39375pt>
-File: resField.jpeg Graphic file (type jpg)
- <use resField.jpeg>
-Package pdftex.def Info: resField.jpeg used on input line 102.
+ <C:/Users/hday/Documents/GitHub/IPAC2013/toUploadPaper/TUPME033f1.pdf>]
+<TUPME033f4.jpeg, id=24, 371.88937pt x 105.39375pt>
+File: TUPME033f4.jpeg Graphic file (type jpg)
+ <use TUPME033f4.jpeg>
+Package pdftex.def Info: TUPME033f4.jpeg used on input line 102.
 (pdftex.def)             Requested size: 241.84842pt x 68.5421pt.
 
 Overfull \hbox (7.11319pt too wide) in paragraph at lines 102--103
 [][] 
  []
 
-<mki-overlap-len-real-imp-zoom.pdf, id=25, 578.16pt x 433.62pt>
-File: mki-overlap-len-real-imp-zoom.pdf Graphic file (type pdf)
-
-<use mki-overlap-len-real-imp-zoom.pdf>
-Package pdftex.def Info: mki-overlap-len-real-imp-zoom.pdf used on input line 1
-09.
+<TUPME033f5.pdf, id=25, 578.16pt x 433.62pt>
+File: TUPME033f5.pdf Graphic file (type pdf)
+ <use TUPME033f5.pdf>
+Package pdftex.def Info: TUPME033f5.pdf used on input line 109.
 (pdftex.def)             Requested size: 193.47577pt x 145.10646pt.
 
 Underfull \hbox (badness 2662) in paragraph at lines 117--118
@@ -501,9 +497,9 @@ Overfull \hbox (7.96474pt too wide) detected at line 122
 cmm/m/it/10 e [] ;
  []
 
-[2 <C:/Users/hday/Documents/GitHub/IPAC2013/mki-final-design.pdf> <C:/Users/hda
-y/Documents/GitHub/IPAC2013/realImp.pdf> <C:/Users/hday/Documents/GitHub/IPAC20
-13/resField.jpeg>]
+[2 <C:/Users/hday/Documents/GitHub/IPAC2013/toUploadPaper/TUPME033f2.pdf> <C:/U
+sers/hday/Documents/GitHub/IPAC2013/toUploadPaper/TUPME033f3.pdf> <C:/Users/hda
+y/Documents/GitHub/IPAC2013/toUploadPaper/TUPME033f4.jpeg>]
 Underfull \hbox (badness 2469) in paragraph at lines 124--125
 $\OML/cmm/m/it/10 ![] \OT1/cmr/m/n/10 = 2\OML/cmm/m/it/10 f[]$\OT1/ptm/m/n/10 
 , $\OML/cmm/m/it/10 e$ \OT1/ptm/m/n/10 the elec-tron charge, $\OML/cmm/m/it/10 
@@ -515,33 +511,33 @@ Overfull \hbox (13.02379pt too wide) in paragraph at lines 146--155
  [] 
  []
 
-[3 <C:/Users/hday/Documents/GitHub/IPAC2013/mki-overlap-len-real-imp-zoom.pdf>]
-(C:\Users\hday\Documents\GitHub\IPAC2013\MKIHeatingPaperIPAC13.aux) ) 
+[3 <C:/Users/hday/Documents/GitHub/IPAC2013/toUploadPaper/TUPME033f5.pdf>]
+(C:\Users\hday\Documents\GitHub\IPAC2013\toUploadPaper\TUPME033.aux) ) 
 Here is how much of TeX's memory you used:
  2277 strings out of 493921
- 28764 string characters out of 3144879
+ 28625 string characters out of 3144879
  89519 words of memory out of 3000000
  5548 multiletter control sequences out of 15000+200000
  21138 words of font info for 46 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 29i,11n,24p,1636b,249s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Progra
-m Files (x86)/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Program Files (x86
-)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files (x86)/
-MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files (x86)/Mi
-KTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files (x86)/MiKT
-eX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Program Files (x86)/MiKTeX 
-2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files (x86)/MiKTeX 2.9
-/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fo
-nts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/
-type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/ty
-pe1/public/amsfonts/cm/cmsy6.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1
-/public/amsfonts/cm/cmsy7.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/pu
-blic/amsfonts/cm/cmsy8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/publi
-c/amsfonts/cm/cmtt9.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/time
-s/utmb8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pf
-b><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on MKIHeatingPaperIPAC13.pdf (3 pages, 458147 bytes).
+ 29i,11n,24p,1637b,249s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Progr
+am Files (x86)/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Program Files (x8
+6)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files (x86)
+/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files (x86)/M
+iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files (x86)/MiK
+TeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Program Files (x86)/MiKTeX
+ 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files (x86)/MiKTeX 2.
+9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files (x86)/MiKTeX 2.9/f
+onts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts
+/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/t
+ype1/public/amsfonts/cm/cmsy6.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type
+1/public/amsfonts/cm/cmsy7.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/p
+ublic/amsfonts/cm/cmsy8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/publ
+ic/amsfonts/cm/cmtt9.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/tim
+es/utmb8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.p
+fb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
+Output written on TUPME033.pdf (3 pages, 458174 bytes).
 PDF statistics:
  222 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

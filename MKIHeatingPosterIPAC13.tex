@@ -2,7 +2,7 @@
 
 \mode<presentation>{\usetheme{I6pd2_hugo}}
 \usepackage[english]{babel}
-\usepackage[latin1]{inputenc}
+\usepackage[utf8]{inputenc}
 \usepackage{amsmath,amsthm, amssymb, latexsym, subfigure}
 %\usepackage{times}\usefonttheme{professionalfonts}  % obsolete
 %\usefonttheme[onlymath]{serif}
@@ -32,7 +32,7 @@
 $\dagger$ CERN, Switzerland \\
 $\ddagger$ School of Physics and Astronomy, The Univeristy of Manchester, Manchester, UK \\
 $\star$ Cockcroft Institute, Daresbury, UK \\}
-\date[May 23rd, 2011]{May 23rd, 2011}
+\date[May 14th 2013]{May 14th 2013}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \newlength{\columnheight}
@@ -54,63 +54,70 @@ $\star$ Cockcroft Institute, Daresbury, UK \\}
             % fill each column with content            
             \begin{block}{Abstract}
 \small{
-During the 2011 run of the LHC there was a significant measured temperature increase in the LHC Injection Kicker Magnets (MKI) during operation with 50ns bunch spacing. This was due to increased beam-induced heating of the magnet due to beam impedance. Due to concerns about future heating with the increased total intensity to nominal and ultimate luminosities a review of the impedance reduction techniques within the MKI was required. A number of new beam screen designs are proposed and their impedance evaluated. Heating estimates are also given with particular attention paid to future intensity upgrades to ultimate parameters.
+The LHC injection kicker magnets (MKIs) have experienced a significant degree of beam induced heating since the beginning of 2011 due to the increasing intensity stored in the LHC, for long periods of time, and the relatively large broadband beam coupling impedance of the installed kicker magnets. In this paper we show the sources of impedance in the MKIs, and the effect that the beam screen dimensions have on the impedance. We show how these alter the power loss, and present an improved beam screen design that improves shielding of the magnet, whilst further improving the electrical breakdown situation.
 }
 \end{block}
             \vfill
 
-	\begin{block}{LHC-MKI and Beam Screen Designs}
+	\begin{block}{Introduction}
+\small{
+\begin{figure}
+\subfigure[]{
+\includegraphics[width=0.5\textwidth]{MKICrossSectionYZ.pdf}
+\label{fig:mkiStruct}
+}
+\subfigure[]{
+\includegraphics[width=0.45\textwidth]{internalStruct.jpg}
+\label{fig:SideView}
+}
+\caption{\subref{fig:mkiStruct} The structure of the MKI and \subref{fig:SideView} the internal structure of the beam screen.}
+
+\end{figure}
 
 	\begin{itemize}
-	\item{The MKIs have recently been observed to undergo significant temperature rise during the increase of the stored intensity in the LHC [1]. This has been confirmed to be due to beam-induced heating via interaction between the circulating beam and the beam-coupling impedance of the MKIs}
-	\item{The beam-coupling impedance of the MKIs is dominated by the beam screen (see Fig.~\ref{fig:short-screens}); an alumina "carrier" tube into which are inserted a number of conductive strips.}
-
-\begin{figure}
-\includegraphics[width = 0.45\textwidth]{figures/shortening_screen_conductors.pdf}
-\label{fig:short-screens}
-\caption{Illustrating the layout of the beam screen, with the screen conductors electrically connected to the beam pipe at one end of the screen, and capacitively coupled to the beam pipe at the other by an overlapping external metallisation.}
-\end{figure}
-
-\item{Due to high voltage breakdown in the beam screen, most MKIs have had the 9 screen conductors closest to the HV plate removed. This causes an increase of the beam impedance, and thus increased heating.}
-
-\begin{figure}
-\subfigure[]{
-\includegraphics[width = 0.45\textwidth]{figures/alternative_screen_design.pdf}
-\label{fig:alt_screen}
-}
-\subfigure[]{
-\includegraphics[width = 0.45\textwidth]{figures/enclosed_diagram.pdf}
-\label{fig:enclosed_cond}
-}
-\label{fig:alternatives}
-\caption{Cross sections of LHC-MKI beam screen with either \ref{fig:alt_screen} an alternative screen layout, in which most conductors are capactively coupled at both ends, and \ref{fig:enclosed_cond} the beam screen in which the screen conductors are in enclosed slots rather than open slots.}
-\end{figure}
-\item{A number of different beam screen configurations are considered to reduce the beam impedance and avoid electrical breakdown in the beam screen (see Fig.~2).}
-
+	\item{During operation of the LHC in 2011 and 2012, high temperatures were observed in the LHC injection kicker magnets (MKIs), becoming higher as the bunch intensity was increased to reach higher luminosities [1].}
+	\item{The heating was determined to be caused by beam-induced heating due to the circulating beam interacting with the real component of the longitudinal beam coupling impedance in the magnet. The hottest magnet before technical stop 3 (TS3), MKI8D, was replaced with a new beam screen in TS3 to improve the screening of the ferrite yoke (structure shown in Fig.~\ref{fig:mkiStruct}).}
+	\item{The improved screening was shown to be highly effective, strongly reducing the temperature of MKI8D, seen in Fig.~\ref{fig:HeatingPt8}, where it can be seen MKI8D changes from being the hottest magnet at IP8 to the coldest after TS3 [2].}
 
 	\end{itemize}
+\begin{figure}
+\subfigure[]{
+\includegraphics[width=0.5\textwidth]{mkipt8HeatingBefore.jpg}
+\label{fig:point8Before}
+}\\
+\subfigure[]{
+\includegraphics[width=0.5\textwidth]{mki8-temps-post-ts3.png}
+\label{fig:point8After}
+}
+\caption{Heating of the MKIs at IP8 before \subref{fig:point8Before} and after \subref{fig:point8After} TS3.}
+\label{fig:HeatingPt8}
+\end{figure}
+}
 	\end{block}
  \vfill
-\begin{block}{Simulations Parameters}
+\begin{block}{New Beam Screen Design}
+\small{
+\begin{itemize}
+\item{A new screen design has been proposed [3] for installation in the MKIs during long shutdown 1 (LS1) which aims to include 24 screen conductors in the design, whilst lowering the surface electric field on the ceramic tube during kicker pulsing, shown in Fig.~\ref{fig:newScreenDesign}.}
+
 
 \begin{figure}
-\includegraphics[width=0.8\linewidth]{figures/mki-cross-section.png}
-\label{fig:kicker_xsec}
-\caption{A cross section of the simulation model of the MKI. We see the transmission line kicker magnet structure with high voltage and ground plates, with capactive plates in between. In red we see the ferrite yolk, and damping ferrites at the end of the structure to damp $\lambda/4$ resonances of the screen conductors. The beam screen runs through the centre of the ferrite yoke.}
+\includegraphics[width=0.45\textwidth]{mki-final-design.pdf}
+\caption{The proposed beam screen design for the MKI post-LS1.}
+\label{fig:newScreenDesign}
 \end{figure}
 
+\item{The capacitively coupled end is significantly changed:}
 \begin{itemize}
-\item{The simulations of the beam coupling impedance of the MKI use a simplified model of the kicker magnet and vacuum tank (see Fig.~3), simulated interacting with a gaussian bunch of $\sigma_{z}=60mm$ in the time domain with the code CST Particle Studio. An integrated wake of 15m was used, using a mesh of $\approx$28 million cells.}
-
+\item{The external metallization is replaced by an external metal tube which steps away from the ceramic tube near the ends of the screen conductors. This reduces the surface electric field on the ceramic tube significantly. Tapering the length of the conductors also helps this reduction.}
+\item{This reduction allows 24 screen conductors to be placed back in the beam screen, greatly improving the screening of the ferrite yoke from the beam.}
 \end{itemize}
-
+\item{In addition the thermal emissivity of the inside of the vacuum tank is planned to be increased to help improve heat evacuation from the tank.}
+\end{itemize}
+}
 \end{block}
             \vfill
 
-\begin{block}{References}
-\small{1) \emph{"Analysis of Measured Ferrite Heating of the LHC Injection Kickers and Proposals for Future Reduction of Temperature"}, M.J. Barnes, L. Ducimetiere, N. Garrel. B. Goddard, W. Weterings, These proceedings}
-
-\end{block}
 
            \vfill
          \vfill
@@ -130,73 +137,104 @@ During the 2011 run of the LHC there was a significant measured temperature incr
             % Since all columns are the same length, it is all nice and tidy.  You have to get the height empirically
             % ---------------------------------------------------------%
             % fill each column with content
-\begin{block}{Coaxial Wire Measurements}
-\begin{itemize}
-\item{We compare measurements to simulations to verify the validity of the simulation model. We take the example of 15 screen conductors, which has existing measurement data (see Fig.~\ref{fig:meas_sim_comp}). We can see the agreement is very good over a substantial part of the frequency range considered.}
-\end{itemize}
-\begin{figure}
-\includegraphics[width = 0.35\textwidth]{figures/15_conductors_meas_sims_ipac.pdf}
-\caption{A comparison between the simulations and measurements of an LHC MKI with a beam screen with 15 screen conductors in open slots.}
-\label{fig:meas_sim_comp}
-\end{figure}
 
-
-\end{block}
 \vfill
 
-\begin{block}{Beam Coupling Impedance of Beam Screen Designs}
+\begin{block}{Beam Coupling Impedance of the New Screen Design}
+\small{
 \begin{itemize}
-\item{Fig.~\ref{fig:screen_cond}(a) shows the impedance of the beam screen with different numbers of screen conductors. It can be seen that even a small amount of additional screening can contribute quite significantly to reducing the impedance of the MKI. The screening is especially effective at low frequencies where the beam current spectrum is high.}
-
-\begin{figure} 
-\subfigure[]{
-\includegraphics[width=0.35\textwidth]{figures/15_24_conductors_near_hv_plate.pdf}
-\label{fig:screen_cond}
-}
-\subfigure[]{
-\includegraphics[width=0.35\textwidth]{figures/24_screens_different_designs.pdf}
-\label{fig:new-screens}
-}
-
-\caption{The longitudinal beam coupling impedance of \ref{fig:screen_cond} different numbers of screen conductors in the beam screen of the MKI and \ref{fig:new-screens} different screen layouts for the MKI.}
-\label{fig:screen_cond}
-\end{figure}
-
-\item{Fig.~\ref{fig:new-screens} shows the beam coupling impedance of a number of alternative screen designs compared to the present design with 24 screen conductors in place. We can see that all of these designs exhibit the same resonant structure, this being determined largely by the dimensions of the overlap between the screen conductors and the external metallisation. Work is underway to understand these resonances as a product of open-ended $\lambda/2$ resonators.}
+\item{To acquire the beam coupling impedance of the proposed design the structure was simulated using CST Particle Studio [4].}
+\item{The longitudinal impedance is simulated for 3 cases; the beam screen before TS3 for all MKIs, the screen for the revised MKI8D installed during TS3, and the proposed screen design for post LS1. The real components of all are shown in Fig.~\ref{fig:MKIScreenImp}}
 
 \end{itemize}
+
+\begin{figure}
+\subfigure[]{
+\includegraphics[width=0.4\textwidth]{realImp.pdf}
+\label{fig:MKIScreenImp}
+}
+\subfigure[]{
+\includegraphics[width=0.4\textwidth]{mki-overlap-len-real-imp-zoom.pdf}
+\label{fig:mkiOverlapRes}
+}
+\caption{\subref{fig:MKIScreenImp} The real component of the longitudinal beam coupling impedance of the existing MKIs, the replacement MKI8D and the proposed beam screen design for after LS1. \subref{fig:mkiOverlapRes} The resonant frequency due to different lengths of the overlap of the screen conductors with external metallization from simulations and calculated from \ref{eqn:imp-overlap-fres}, are shown as blue vertical lines.}
+\end{figure}
+
+\begin{itemize}
+\item{For the well screened magnet (the ferrite yoke is not visible to the circulating beam), the impedance is dominated by a resonance due to the overlapping area between the screen conductors and the external metallization/metal tube. The resonant frequency $f_{res}$ is given by}
+
+\begin{equation}
+\small{f_{res} = \frac{nc}{\sqrt{\epsilon_{r}}2 \left( L_{overlap} + \delta_{fringe} \right)},}
+\label{eqn:imp-overlap-fres}
+\end{equation}
+
+\item{where $\epsilon_{r}$ is the relative permittivity of the surrounding medium (in this case $\epsilon_{r} \approx 10$ for the alumina ceramic tube), $c$ is the speed of light, $L_{overlap}$ is the length of the overlap, and $\delta_{fringe}$ is a factor to take into account fringe fields, which depends on the distance between the screen conductors and the external metallization/metal tube.}
+\item{Examples of the predicted impedance for different lengths of overlap between 80 mm and 120 mm are shown in Fig.~\ref{fig:mkiOverlapRes} compared to simulated impedance. These show very good agreement between the two.}
+\end{itemize}
+
+
+}
 \end{block}
 \vfill
 
 \begin{block}{Heating Estimates}
+\small{
 \begin{table}
+\caption{Beam parameters for the LHC during 2012 operation, post-LS1 and some proposed HL-LHC parameters with the predicted power loss in the MKI (in W per magnet) for the impedances shown in Fig.~\ref{fig:MKIScreenImp}. Here the bunch length is the $4\sigma$ Gaussian width}
+\label{tab:BrenHLPara}
 \begin{center}
-\caption{Estimates of the total power loss (Watts) due to the beam coupling impedance of an entire MKI for a number of different beam screen configurations and layouts. Estimates are given with two different bunch lengths. The alternative layout is that shown in Fig.~\ref{fig:alt_screen}. Thick ceramic indicates using a thicker ceramic (5.5mm thick as opposed to 4mm for all other designs).}
-\begin{tabular*}{0.9\textwidth}{@{\extracolsep{\fill}} c | c | c | c | c }
-
- & \multicolumn{2}{|r|}{\footnotesize{Bunch Length $\sigma_{z} = 1.2ns$}} & \multicolumn{2}{|c}{\footnotesize{Bunch Length $\sigma_{z} = 1.3ns$}}\\ \hline
-\small{Beam Screen Layout} & 25ns & 50ns & 25ns & 50ns \\ \hline
-\footnotesize{No Beam Screen }& 4933&2784 &4320 & 2395\\ \hline
-\footnotesize{24 Screen Conductors, open }&38 &13 &37 & 12\\ \hline
-\footnotesize{15 Screen Conductors, open} &147 &72 &129 & 60\\ \hline
-\footnotesize{24 Screen Conductors, enclosed} &76 &23 &73 & 22\\ \hline
-\footnotesize{24 Screen Conductors, open, thick ceramic} &53 & 20&52 & 19\\ \hline
-\footnotesize{24 Screen Conductors, open, alternative layout} &63 & 23&62 & 22\\ \hline
-\footnotesize{19 Screen Conductors, open} &52 &18 &50 & 16\\ \hline
-\footnotesize{20 Screen Conductors, open} &50 & 16& 48& 15\\ 
-\end{tabular*}
-\label{tab:power-loss}
+\begin{tabular}{c | c | c | c | c | c | c}
+Operational Mode & $t_{b}$ (ns) & $N_{b}$ & $n_{b}$ & 15 Conds. & 19 Conds.& 24 Conds.\\ \hline
+50ns 2012 & 1.2 & $1.6 \times 10^{11}$ & 1380 & 143 & 52 & 37 \\ \hline
+25ns & 1.0 & $1.15 \times 10^{11}$ & 2808 & 226 & 79 & 30 \\ \hline
+25ns HL-LHC & 1.0 &  $2.2 \times 10^{11}$ & 2808 & 668 & 288 & 109 \\ \hline
+50ns HL-LHC & 1.0 &  $3.5 \times 10^{11}$ & 1380 & 683 & 229 & 169 \\ 
+%25ns HL-LHC & 1.0 &  $2.2 \times 10^{11}$ & 2808 \\ \hline
+%50ns HL-LHC & 1.0 &  $3.5 \times 10^{11}$ & 1380 \\ 
+\end{tabular}
 \end{center}
 \end{table}
 
 
+%\begin{table}
+%\caption{Beam induced power deposition (W) for the LHC during 2012 operation, post-LS1 and some proposed HL-LHC beam parameters.}
+%\label{tab:PowLoss}
+%\begin{center}
+%\begin{tabular}{c | c | c | c | c}
+%Screen Layout &50ns 2012&25ns&25ns HL&50ns HL\\ \hline
+%15 screen con. & 143 & 226 & 863 & 806 \\ \hline
+%19 screen con. & 52 & 79 & 373 & 270 \\ \hline
+%24 screen con. & 37 & 30 & 142 & 200 \\
+%%15 screen con. & 143 & 226 & 668 & 683 \\ \hline
+%%19 screen con. & 52 & 79 & 288 & 229 \\ \hline
+%%24 screen con. & 37 & 30 & 109 & 169 \\
+%\end{tabular}
+%\end{center}
+%\end{table}
+
+\begin{itemize}
+\item{The power loss in the MKI for a number of different beam parameters covering 2012, post-LS1 and HL-LHC parameters with the impedances of the MKI beam screen with 15, 19 and 24 screen conductors is shown in Table~\ref{tab:BrenHLPara}. It can be seen that the power loss is greatly reduced by the new beam screen design compared to the design pre-LS1 and the post-TS3 MKI8D.}
+\end{itemize}
+}
 \end{block}
 \vfill
 \begin{block}{Summary}
+\small{
 \begin{itemize}
-\item{We have demonstrated a number of alternative beam screen designs for the LHC MKIs, in particular designs optimised to reduce electrical breakdown have been demonstrated to provide comparable heat loads as the original.}
-\item{Using modern simulation tools it is possible to simulate very large and complex structures to produce results in good agreement with measurements.}
+\item{The beam coupling impedance of the new beam screen design has been investigated, showing a greatly reduced impedance compared to the existing beam screen. In addition the source of the impedance has been well established.}
+\item{The power loss of the screened MKIs has been evaluated, showing a much reduced power loss with the new beam screen. With additional improvements to heat extraction, the operating temperature should be much reduced [2].}
 \end{itemize}
+}
+\end{block}
+\vfill
+
+\begin{block}{References}
+\begin{enumerate}
+\item{\small{E. Métral \emph{et al}., \emph{Beam-Induced Heating/Bunch Length/RF and Lessons for 2012}, LHC Performance Workshop, Chamonix 2012, CERN-ATS-2012-069}}
+\item{\small{M.J. Barnes \emph{et al}., \emph{Beam Induced Ferrite Heating of the LHC Injection Kickers and Proposals for Improved Cooling}, these proceedings, MOPWA031}}
+\item{\small{M.J. Barnes \emph{et al}., \emph{Upgrade of the LHC Injection Kicker Magnets}, these proceedings, MOPWA030}}
+\item{\small{\texttt{http://www.cst.com}}}
+\end{enumerate}
 \end{block}
 \vfill
 

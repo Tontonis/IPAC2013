@@ -1,0 +1,15 @@
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdftex 2013.5.6)  6 MAY 2013 11:57
+entering extended mode
+**C:/Users/hday/Documents/GitHub/IPAC2013/beamerthemeI6pd2_hugo.sty
+(C:/Users/hday/Documents/GitHub/IPAC2013/beamerthemeI6pd2_hugo.sty
+! Undefined control sequence.
+l.1 \ProvidesPackage
+                    {beamerthemeI6pd2}  % this style was created by Thomas D...
+
+? 
+! Emergency stop.
+l.1 \ProvidesPackage
+                    {beamerthemeI6pd2}  % this style was created by Thomas D...
+End of file on the terminal!
+
+!  ==> Fatal error occurred, no output PDF file produced!
